@@ -219,6 +219,7 @@ namespace KLC_Player
         {
             if (WindowState == FormWindowState.Minimized)
             {
+                this.ShowInTaskbar = false;
                 ShowIcon = false;
                 notifyIcon1.Visible = true;
                 notifyIcon1.ShowBalloonTip(1000);
@@ -230,13 +231,14 @@ namespace KLC_Player
             ShowInTaskbar = true;
             notifyIcon1.Visible = false;
             WindowState = FormWindowState.Normal;
+            this.ShowInTaskbar = true;
 
 
         }
 
         private void KLCPlayer_Load(object sender, EventArgs e)
         {
-            notifyIcon1.BalloonTipText = "Application minimized";
+            notifyIcon1.BalloonTipText = "KLC Player Hala Çalışıyor";
             notifyIcon1.BalloonTipTitle = "KLC Player";
         }
 
