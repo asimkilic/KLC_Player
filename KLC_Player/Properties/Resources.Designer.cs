@@ -81,6 +81,16 @@ namespace KLC_Player.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("add-16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] araya_cikma_anons {
@@ -293,6 +303,16 @@ namespace KLC_Player.Properties {
         internal static System.Drawing.Bitmap minimize {
             get {
                 object obj = ResourceManager.GetObject("minimize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minus_sign {
+            get {
+                object obj = ResourceManager.GetObject("minus-sign", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -57,7 +57,11 @@ namespace KLC_Player
             this.label9 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.button23 = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -76,7 +80,6 @@ namespace KLC_Player
             this.button21 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -87,6 +90,7 @@ namespace KLC_Player
             this.panel7.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -331,9 +335,8 @@ namespace KLC_Player
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.panel5.Controls.Add(this.button24);
+            this.panel5.Controls.Add(this.panel10);
             this.panel5.Controls.Add(this.button23);
-            this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.button3);
@@ -429,13 +432,52 @@ namespace KLC_Player
             this.button23.UseVisualStyleBackColor = false;
             this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button24);
+            this.panel10.Controls.Add(this.button25);
+            this.panel10.Controls.Add(this.button6);
+            this.panel10.Controls.Add(this.button26);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(0, 366);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(107, 176);
+            this.panel10.TabIndex = 10;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Image = global::KLC_Player.Properties.Resources.play;
+            this.button24.Location = new System.Drawing.Point(9, 69);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(32, 32);
+            this.button24.TabIndex = 7;
+            this.button24.UseVisualStyleBackColor = false;
+            this.button24.Visible = false;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Image = global::KLC_Player.Properties.Resources.minus_sign;
+            this.button25.Location = new System.Drawing.Point(56, 69);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(32, 32);
+            this.button25.TabIndex = 9;
+            this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = global::KLC_Player.Properties.Resources.pause_button;
-            this.button6.Location = new System.Drawing.Point(50, 385);
+            this.button6.Location = new System.Drawing.Point(9, 19);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(32, 32);
             this.button6.TabIndex = 6;
@@ -443,6 +485,20 @@ namespace KLC_Player
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Visible = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Image = global::KLC_Player.Properties.Resources.add_16x16;
+            this.button26.Location = new System.Drawing.Point(56, 19);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(32, 32);
+            this.button26.TabIndex = 8;
+            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button26.UseVisualStyleBackColor = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button22
             // 
@@ -670,20 +726,6 @@ namespace KLC_Player
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Image = global::KLC_Player.Properties.Resources.play;
-            this.button24.Location = new System.Drawing.Point(50, 435);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(32, 32);
-            this.button24.TabIndex = 7;
-            this.button24.UseVisualStyleBackColor = false;
-            this.button24.Visible = false;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
-            // 
             // KLCPlayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -715,6 +757,7 @@ namespace KLC_Player
             this.panel5.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -768,5 +811,8 @@ namespace KLC_Player
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
     }
 }

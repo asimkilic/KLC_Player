@@ -274,6 +274,8 @@
     <Content Include="ghost.ico" />
     <None Include="Sounds\esrarengizSarki-6snV.wav" />
     <None Include="Resources\sinav-basladi.mp4" />
+    <None Include="Resources\add-16x16.png" />
+    <None Include="Resources\minus-sign.png" />
     <Content Include="Sounds\esrarengizSarki-6snV.m4a" />
     <Content Include="Sounds\ya-sidi.m4a" />
   </ItemGroup>

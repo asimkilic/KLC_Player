@@ -31,6 +31,7 @@ namespace KLC_Player
             this.ControlBox = false;
             MiniTitleButtonsOff();
             
+            
           
 
         }
@@ -316,6 +317,17 @@ namespace KLC_Player
         private void button24_Click(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.settings.volume += 10;
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.settings.volume -= 10;
+
         }
 
         protected void ReallyCenterToScreen()

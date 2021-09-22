@@ -130,14 +130,11 @@
   <data name="maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2021-09-22 at 00-43-08 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2021-09-22 at 00-43-08 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Screenshot 2021-09-22 at 00-42-57 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2021-09-22 at 00-42-57 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="three-dot-middle-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\three-dot-middle-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mage-esport-mascot-logo-and-illustration_13606-62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mage-esport-mascot-logo-and-illustration_13606-62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="checked-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checked-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,11 +142,20 @@
   <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="araya_cikma_anonsV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\araya-cikma-anonsV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="esrarengizSarki_6snV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esrarengizSarki-6snV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Cover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cover1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image.psd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.psd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film-roll-16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film-roll-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="film-roll-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\film-roll-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +163,8 @@
   <data name="search-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DisgustingInnocentBass-size_restricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DisgustingInnocentBass-size_restricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nihahahaha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nihahahaha.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Screenshot 2021-09-22 at 00-38-45 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2021-09-22 at 00-38-45 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,23 +184,29 @@
   <data name="shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="araya_cikma_anons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\araya-cikma-anons.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="musical-note-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\musical-note-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2021-09-22 at 00-42-32 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2021-09-22 at 00-42-32 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="film-roll-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\film-roll-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="three-dot-middle-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\three-dot-middle-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="537-5377324_png-format-music-notes-png-clipart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\537-5377324_png-format-music-notes-png-clipart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gulme_efektiV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gulme-efektiV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="right-arrow-angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right-arrow-angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="film-roll-16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\film-roll-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2021-09-22 at 00-43-08 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2021-09-22 at 00-43-08 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2021-09-22 at 00-42-48 Joker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2021-09-22 at 00-42-48 Joker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,14 +217,29 @@
   <data name="537-5377324_png-format-music-notes-png-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\537-5377324_png-format-music-notes-png-clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add-16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DisgustingInnocentBass-size_restricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DisgustingInnocentBass-size_restricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="film-roll-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\film-roll-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="left-arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\left-arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mage-esport-mascot-logo-and-illustration_13606-62" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mage-esport-mascot-logo-and-illustration_13606-62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nihahahahaV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nihahahahaV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sinav_basladi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sinav-basladi.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="three-dot-24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\three-dot-24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,46 +247,25 @@
   <data name="checked-32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checked-32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="no-sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\no-sound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="esrarengizSarki_6sn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\esrarengizSarki-6sn.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pause-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pause-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="replay" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\replay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="araya_cikma_anons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\araya-cikma-anons.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="araya_cikma_anonsV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\araya-cikma-anonsV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="esrarengizSarki_6sn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\esrarengizSarki-6sn.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="esrarengizSarki_6snV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\esrarengizSarki-6snV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="gulme_efekti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gulme-efekti.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gulme_efektiV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gulme-efektiV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nihahahaha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nihahahaha.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nihahahahaV" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nihahahahaV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="no-sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no-sound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yanlis_cevapV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yanlis-cevapV.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="sinav_basladi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sinav-basladi.mp4;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="replay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\replay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
