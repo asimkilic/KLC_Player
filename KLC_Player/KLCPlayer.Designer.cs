@@ -74,6 +74,7 @@ namespace KLC_Player
             this.button19 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.button6 = new System.Windows.Forms.Button();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -376,6 +377,7 @@ namespace KLC_Player
             this.button13.Size = new System.Drawing.Size(32, 32);
             this.button13.TabIndex = 5;
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button15
             // 
@@ -400,6 +402,7 @@ namespace KLC_Player
             this.button12.Size = new System.Drawing.Size(32, 32);
             this.button12.TabIndex = 6;
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -513,6 +516,7 @@ namespace KLC_Player
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.button5);
             this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.button3);
@@ -628,6 +632,20 @@ namespace KLC_Player
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = global::KLC_Player.Properties.Resources.pause_button;
+            this.button6.Location = new System.Drawing.Point(95, 319);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(32, 32);
+            this.button6.TabIndex = 6;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Visible = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // KLCPlayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -707,5 +725,6 @@ namespace KLC_Player
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

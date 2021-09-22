@@ -27,6 +27,8 @@ namespace KLC_Player
             this.Text = string.Empty;
             this.ControlBox = false;
             MiniTitleButtonsOff();
+            sd = new SoundPlayer(Resources.esrarengizSarki_6snV);
+
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -73,8 +75,8 @@ namespace KLC_Player
         private void button1_Click(object sender, EventArgs e)
         {
             ButtonActive(sender, e);
-            //axWindowsMediaPlayer1.URL = "Resources/esrarengizSarki_6snV.wav";
-            // axWindowsMediaPlayer1.Ctlcontrols.play();
+            //axWindowsMediaPlayer1.URL = "..Resource/esrarengizSarki_6snV.wav";
+            //axWindowsMediaPlayer1.Ctlcontrols.play();
             sd = new SoundPlayer(Resources.esrarengizSarki_6snV);
             sd.Play();
             label7.Text = "Esrarengiz Şarkı";
@@ -122,6 +124,7 @@ namespace KLC_Player
 
         private void button22_Click(object sender, EventArgs e)
         {
+            button6.Visible = false;
             MiniTitleButtonsOff();
             panel1.Show();
             panel2.Show();
@@ -150,7 +153,7 @@ namespace KLC_Player
             //panel7.Hide();
             panel8.Hide();
             panel9.Hide();
-
+            button6.Visible = true;
             //this.Size = new Size(212, 542);
             this.Size = new Size(100, 542);
             ButonIsimleriniKucult();
@@ -264,6 +267,21 @@ namespace KLC_Player
             sd = new SoundPlayer(Resources.yanlis_cevapV);
             sd.Play();
             label7.Text = "Yanlış Cevap";
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            sd.Stop();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            sd.Stop();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            sd.Play();
         }
 
         protected void ReallyCenterToScreen()
