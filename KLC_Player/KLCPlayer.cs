@@ -255,7 +255,7 @@ namespace KLC_Player
 
         private void KLCPlayer_Load(object sender, EventArgs e)
         {
-            notifyIcon1.BalloonTipText = "KLC Player Hala Çalışıyor";
+            notifyIcon1.BalloonTipText = "Özlü Söz: 'Uçabiliyorsundur ama yer çekimi vardır.'";
             notifyIcon1.BalloonTipTitle = "KLC Player";
         }
 
