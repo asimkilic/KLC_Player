@@ -272,6 +272,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ghost.ico" />
+    <None Include="Sounds\esrarengizSarki-6snV.wav" />
+    <None Include="Resources\sinav-basladi.mp4" />
+    <Content Include="Sounds\esrarengizSarki-6snV.m4a" />
+    <Content Include="Sounds\ya-sidi.m4a" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

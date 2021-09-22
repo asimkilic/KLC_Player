@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Media;
 using System.Runtime.InteropServices;
@@ -17,7 +18,9 @@ namespace KLC_Player
     {
         Button activeButton;
         int ekranGenisligi, ekranYuksekligi;
-        SoundPlayer sd;
+      
+        string projectDirectory = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Resources";
+
         public KLCPlayer()
         {
 
@@ -27,7 +30,8 @@ namespace KLC_Player
             this.Text = string.Empty;
             this.ControlBox = false;
             MiniTitleButtonsOff();
-            sd = new SoundPlayer(Resources.esrarengizSarki_6snV);
+            
+          
 
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -75,10 +79,15 @@ namespace KLC_Player
         private void button1_Click(object sender, EventArgs e)
         {
             ButtonActive(sender, e);
-            //axWindowsMediaPlayer1.URL = "..Resource/esrarengizSarki_6snV.wav";
-            //axWindowsMediaPlayer1.Ctlcontrols.play();
-            sd = new SoundPlayer(Resources.esrarengizSarki_6snV);
-            sd.Play();
+           
+
+         
+            // This will get the current PROJECT directory parents
+             //projectDirectory = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName+ "\\Sounds\\esrarengizSarki-6snV.wav";
+
+            axWindowsMediaPlayer1.URL = projectDirectory+ "\\esrarengizSarki-6snV.wav";      
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+      
             label7.Text = "Esrarengiz Şarkı";
 
 
@@ -87,8 +96,9 @@ namespace KLC_Player
         private void button2_Click(object sender, EventArgs e)
         {
             ButtonActive(sender, e);
-            sd = new SoundPlayer(Resources.araya_cikma_anonsV);
-            sd.Play();
+            axWindowsMediaPlayer1.URL = projectDirectory + "\\araya-cikma-anonsV.wav";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+         
             label7.Text = "Molaya Çıkma Anonsu";
 
         }
@@ -96,8 +106,9 @@ namespace KLC_Player
         private void button3_Click(object sender, EventArgs e)
         {
             ButtonActive(sender, e);
-            sd = new SoundPlayer(Resources.nihahahahaV);
-            sd.Play();
+            axWindowsMediaPlayer1.URL = projectDirectory + "\\nihahahahaV.wav";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+           
             label7.Text = "Kahkaha efekti";
         }
 
@@ -125,6 +136,7 @@ namespace KLC_Player
         private void button22_Click(object sender, EventArgs e)
         {
             button6.Visible = false;
+            button24.Visible = false;
             MiniTitleButtonsOff();
             panel1.Show();
             panel2.Show();
@@ -154,6 +166,7 @@ namespace KLC_Player
             panel8.Hide();
             panel9.Hide();
             button6.Visible = true;
+            button24.Visible = true;
             //this.Size = new Size(212, 542);
             this.Size = new Size(100, 542);
             ButonIsimleriniKucult();
@@ -257,31 +270,52 @@ namespace KLC_Player
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            sd = new SoundPlayer(Resources.gulme_efektiV);
-            sd.Play();
+            axWindowsMediaPlayer1.URL = projectDirectory + "\\gulme-efektiV.wav";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+           
             label7.Text = "Gülme Efekti ";
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            sd = new SoundPlayer(Resources.yanlis_cevapV);
-            sd.Play();
+            axWindowsMediaPlayer1.URL = projectDirectory + "\\yanlis-cevapV.wav";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+          
             label7.Text = "Yanlış Cevap";
         }
 
         private void button6_Click_1(object sender, EventArgs e)
         {
-            sd.Stop();
+            axWindowsMediaPlayer1.Ctlcontrols.pause();
+         
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            sd.Stop();
+            axWindowsMediaPlayer1.Ctlcontrols.pause();
+           
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            sd.Play();
+            if (axWindowsMediaPlayer1.URL != null)
+            {
+                axWindowsMediaPlayer1.Ctlcontrols.play();
+            }
+          
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.URL = projectDirectory + "\\sinav-basladi.mp4";
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+
+            label7.Text = "SınaV Başladı";
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.play();
         }
 
         protected void ReallyCenterToScreen()

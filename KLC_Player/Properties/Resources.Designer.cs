@@ -497,6 +497,16 @@ namespace KLC_Player.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] sinav_basladi {
+            get {
+                object obj = ResourceManager.GetObject("sinav_basladi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap three_dot_24x24 {
